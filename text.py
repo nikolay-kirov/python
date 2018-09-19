@@ -1,8 +1,11 @@
 #!/bin/python3
 
 
-def test(self):
-	self.str = ' Hello world! '
-	print (self.str)
 
-test()
+file = '/root/python/TextEdit/dev'
+
+f = open(file, "r")
+message = f.read()
+print(message)
+f.close()
+
